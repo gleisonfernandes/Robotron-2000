@@ -1,3 +1,11 @@
+const imagem = document.querySelectorAll("[alterar]");
+
+imagem.forEach((cor => {
+    cor.addEventListener("click", () => {
+        trocaImagem(cor.attributes.alterar.textContent);
+    })
+}))
+
 const trocaImagem = (cor) => {
     document.querySelector(".robo").src="img/Robotron2000-" + cor + ".png";
  }
