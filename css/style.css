@@ -37,6 +37,33 @@ main {
     position: relative;
 }
 
+.botoes {
+   z-index: 2;
+   position: relative;
+   right: 5%;
+   bottom: 10%;
+   display: flex;
+}
+
+.alterar {
+    font-family: 'Teko', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 0.2em 1em;
+    float: right;
+    border: 3px solid var(--main-branco);
+    background: var(--main-branco);
+    border-radius: 30% 0% 30% 0%;
+    cursor: pointer;
+    margin: 25px 5px;
+    width: 80px;
+    height: 45px;
+}
+.alterar:hover {
+    background: var(--main-preto);
+    color: var(--main-branco)
+}
+
 .robo {
     height: 110%;
     z-index: 1;

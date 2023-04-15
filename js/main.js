@@ -1,3 +1,6 @@
+const trocaImagem = (cor) => {
+    document.querySelector(".robo").src="img/Robotron2000-" + cor + ".png";
+ }
 const controle = document.querySelectorAll("[data-controle]");
 const estatisticas = document.querySelectorAll("[data-estatistica]");
 
