@@ -8,7 +8,7 @@
 ## 💻 Sobre o Projeto
 
 <p align="justify">Este projeto consiste em uma aplicação web responsiva desenvolvida durante a etapa de de aprendizagem do Programa de Formação - Desenvolve 2023.
-O <strong>Robotron-2000</strong> é uma aplicação que consiste na montagem de um robo (Robotron), o qual ao adicionar peças toda a estatistica de Foça, poder, energia e velocidade são atualizadas dinamicamente.
+O <strong>Robotron-2000</strong> é uma aplicação que consiste na montagem de um robô (Robotron), o qual ao adicionar peças toda à estatística de Força, poder, energia e velocidade são atualizadas dinamicamente.
 Projeto criado no curso JavaScript: manipulando o DOM, idealizada no ambito educacional, para o processo de aprendizagem das tecnologias em volvidades.</p>
 
 ---
