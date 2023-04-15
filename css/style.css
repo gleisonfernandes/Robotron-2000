@@ -258,3 +258,41 @@ main {
         margin: 10vh auto;
     }
 }
+
+@media screen and (max-width: 478px) {
+    body { 
+        font-size: 12px;
+    }
+
+    main {
+        width: 70vw;
+        height: 80vh;
+        margin: 10vh 8vw 10vh 12vw;
+        flex-direction: column;
+    }
+
+    .robotron {
+        background-position: initial;
+    }
+
+    .robo {
+        height: 70%;
+        left: -35%;
+        top: 15%;
+    }
+    
+    .alterar {
+        font-size: 0.9em;
+        padding: 0.2em 0.2em;
+        margin: 10px 2px;
+        width: 50px;
+        height: 40px;
+    }
+
+    .titulo {
+        position: relative;
+        bottom: 2.5rem;
+        left: 0.5rem;
+        line-height: 0.8;
+    }
+}
