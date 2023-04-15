@@ -295,4 +295,8 @@ main {
         left: 0.5rem;
         line-height: 0.8;
     }
+
+    .box {
+        height: 90%;
+    }
 }
